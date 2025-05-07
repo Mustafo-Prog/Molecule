@@ -1,3 +1,11 @@
+@media (max-width: 1021px) {
+    .proof__cards{
+        flex-wrap: wrap;
+    }
+    .proof__card{
+        margin: 0 auto;
+    }
+}
 @media (max-width: 1000px) {
     .header__hero-foot-gallery{
         flex-wrap: wrap;
@@ -9,6 +17,13 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+    }
+    .register__card{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        padding: 96px 20px;
     }
 }
 
@@ -39,6 +54,22 @@
         max-width: 600px;
         width: 100%;
         margin: 0 auto;
+    }
+    .come__left{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .come__hero{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+@media (max-width: 870px) {
+    .footer__bottom{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
     }
 }
 @media (max-width: 830px) {
@@ -71,6 +102,10 @@
     }
     .open-navbar i{
         display: block;
+        height: 40px;
+        width: 40px;
+        display: flex;
+        align-items: center;
     }
 }
 @media (max-width: 800px) {
@@ -111,6 +146,42 @@
         align-items: center;
     }
 }
+@media (max-width: 770px) {
+    .footer__top{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
+@media (max-width: 690px) {
+    .proof__title{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .proof__title button{
+        max-width: 220px;
+        width: 100%;
+    }
+}
+@media (max-width: 580px) {
+    .register__card-right-top{
+        flex-direction: column;
+    }
+    .register__card-right-top button{
+        max-width: 240px;
+        width: 100%;
+    }
+    .register__card-right-top input{
+        max-width: 300px;
+        width: 100%;
+    }
+    .register__card-right-bottom{
+        gap: 15px;
+        flex-direction: column;
+    }
+}
 @media (max-width: 521px) {
     .features__right-foot{
         grid-template-columns: repeat(1, 1fr);
@@ -118,5 +189,29 @@
     }
     .features__right-foot-item-1{
         max-width: 320px;
+    }
+}
+@media (max-width: 485px) {
+    .footer__top-item-2{
+        flex-direction: column;
+    }
+    .footer__top-item-2 a{
+        font-size: 20px;
+    }
+    .footer__bottom-right{
+        flex-direction: column;
+    }
+    .footer__bottom-right a{
+        font-size: 20px;
+    }
+    .footer__bottom-left p{
+        text-align: center;
+    }
+}
+@media (max-width: 450px) {
+    .header__navbar-right{
+        flex-direction: column;
+        gap: 5px;
+        flex-grow: -1;
     }
 }
